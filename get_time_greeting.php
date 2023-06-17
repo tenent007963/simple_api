@@ -1,6 +1,6 @@
 <?php
 // I'm India so my timezone is Asia/Calcutta
-date_default_timezone_set('Asia/KualaLumpur');
+date_default_timezone_set('Asia/Kuala_Lumpur');
 
 // 24-hour format of an hour without leading zeros (0 through 23)
 $Hour = date('G');
