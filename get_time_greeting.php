@@ -5,7 +5,7 @@ date_default_timezone_set('Asia/Kuala_Lumpur');
 $Hour = date('G');
 $json = array();
 if ( $Hour >= 5 && $Hour <= 11 ) {
-    $json = array("data" => {"type" => "text", "text","Good morning"});
+    $json = array("data" => "Good morning");
 } else if ( $Hour >= 12 && $Hour <= 18 ) {
     $json = array("data" => "Good afternoon");
 } else if ( $Hour >= 19 || $Hour <= 23 ) {
